@@ -3,8 +3,16 @@ core-version: >=5.0.8
 dependents: $:/plugins/linonetwo/pinyin-fuzzy-search
 description: Command palette Chinese translated
 list: readme
+<<<<<<< HEAD
+=======
+name: Command Palette
+>>>>>>> 13eead8 (Commit with Git-Sync-JS)
 plugin-type: plugin
 source: https://github.com/tiddly-gittly/tiddlywiki-plugins
 title: $:/plugins/linonetwo/commandpalette
 type: application/json
+<<<<<<< HEAD
 version: 0.2.2
+=======
+version: 0.2.3
+>>>>>>> 13eead8 (Commit with Git-Sync-JS)

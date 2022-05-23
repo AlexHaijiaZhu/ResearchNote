@@ -8,4 +8,8 @@ plugin-type: plugin
 source: https://github.com/kookma/TW-Shiraz
 title: $:/plugins/kookma/shiraz
 type: application/json
+<<<<<<< HEAD
 version: 2.4.5
+=======
+version: 2.4.6
+>>>>>>> 13eead8 (Commit with Git-Sync-JS)

@@ -3,11 +3,19 @@
     "build": "node -e \"require('./scripts/build-wiki')()\""
   },
   "dependencies": {
+<<<<<<< HEAD
     "@tiddlygit/tiddlywiki": "5.2.2-prerelease-2021-12-10"
+=======
+    "@tiddlygit/tiddlywiki": "5.2.3-prerelease-2022-04-09"
+>>>>>>> 13eead8 (Commit with Git-Sync-JS)
   },
   "devDependencies": {
     "html-minifier-terser": "6.1.0",
     "shx": "0.3.4",
+<<<<<<< HEAD
     "workbox-cli": "6.4.2"
+=======
+    "workbox-cli": "6.5.3"
+>>>>>>> 13eead8 (Commit with Git-Sync-JS)
   }
 }

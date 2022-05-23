@@ -1,10 +1,18 @@
 author: Gk0Wk
 dependents: 
 description: Use tiddler's H1~H6 headers to generate navigable TOC for tiddler
+<<<<<<< HEAD
 list: readme
+=======
+list: readme LICENSE
+>>>>>>> 13eead8 (Commit with Git-Sync-JS)
 name: Page TOC
 plugin-type: plugin
 source: https://github.com/Gk0Wk/TiddlySeq/tree/master/plugins/Gk0Wk/page-toc
 title: $:/plugins/Gk0Wk/page-toc
 type: application/json
+<<<<<<< HEAD
 version: 0.0.2
+=======
+version: 0.0.3
+>>>>>>> 13eead8 (Commit with Git-Sync-JS)
