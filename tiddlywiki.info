@@ -31,7 +31,10 @@
       "text/plain"
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 330024d (Commit with Git-Sync-JS)
     "readonlyexternalimages": [
       "--setfield",
       "[is[binary]] [type[application/msword]]",
@@ -48,7 +51,10 @@
       "index.html",
       "text/plain"
     ],
+<<<<<<< HEAD
 >>>>>>> 13eead8 (Commit with Git-Sync-JS)
+=======
+>>>>>>> 330024d (Commit with Git-Sync-JS)
     "externaljs": [
       "--rendertiddler",
       "$:/core/templates/tiddlywiki5.js",

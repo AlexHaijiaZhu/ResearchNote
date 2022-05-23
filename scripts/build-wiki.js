@@ -14,6 +14,7 @@ const execAndLog = (command, options) => console.log(String(execSync(command, op
 module.exports = function build() {
   // npm run build:prepare
 <<<<<<< HEAD
+<<<<<<< HEAD
   execAndLog(`shx rm -rf ${folderToServe}`);
   // npm run build:public
   execAndLog(`shx cp -r ${repoFolder}/public/ ${folderToServe}`, { cwd: repoFolder });
@@ -26,6 +27,8 @@ module.exports = function build() {
     });
     execAndLog(`shx cp ${repoFolder}/tiddlers/TiddlyWikiIconBlack.png ${folderToServe}/TiddlyWikiIconBlack.png`, {
 =======
+=======
+>>>>>>> 330024d (Commit with Git-Sync-JS)
   execAndLog(`rm -rf ${folderToServe}`);
   // npm run build:public
   execAndLog(`cp -r ${repoFolder}/public/ ${folderToServe}`, { cwd: repoFolder });
@@ -42,7 +45,10 @@ module.exports = function build() {
       cwd: repoFolder,
     });
     execAndLog(`cp ${repoFolder}/tiddlers/TiddlyWikiIconBlack.png ${folderToServe}/TiddlyWikiIconBlack.png`, {
+<<<<<<< HEAD
 >>>>>>> 13eead8 (Commit with Git-Sync-JS)
+=======
+>>>>>>> 330024d (Commit with Git-Sync-JS)
       cwd: repoFolder,
     });
   } catch (error) {
@@ -50,17 +56,23 @@ module.exports = function build() {
   }
   // npm run build:nodejs2html
 <<<<<<< HEAD
+<<<<<<< HEAD
   execAndLog(`tiddlywiki ${repoFolder} --build externalimages`, { cwd: repoFolder });
   execAndLog(`tiddlywiki ${repoFolder} --build externaljs`, { cwd: repoFolder });
   // npm run build:sitemap
   execAndLog(`tiddlywiki . --rendertiddler sitemap sitemap.xml text/plain && shx mv ${repoFolder}/output/sitemap.xml ${folderToServe}/sitemap.xml`, {
 =======
+=======
+>>>>>>> 330024d (Commit with Git-Sync-JS)
   // exclude edit related plugins, make it readonly, and reduce size
   execAndLog(`tiddlywiki ${repoFolder} --build readonlyexternalimages`, { cwd: repoFolder });
   execAndLog(`tiddlywiki ${repoFolder} --build externaljs`, { cwd: repoFolder });
   // npm run build:sitemap
   execAndLog(`tiddlywiki . --rendertiddler sitemap sitemap.xml text/plain && mv ${repoFolder}/output/sitemap.xml ${folderToServe}/sitemap.xml`, {
+<<<<<<< HEAD
 >>>>>>> 13eead8 (Commit with Git-Sync-JS)
+=======
+>>>>>>> 330024d (Commit with Git-Sync-JS)
     cwd: repoFolder,
   });
   // npm run build:minifyHTML
@@ -73,10 +85,14 @@ module.exports = function build() {
   const htmlContentWithCorrectJsPath = htmlContent.replaceAll('%24%3A%2Fcore%2Ftemplates%2Ftiddlywiki5.js', 'tiddlywiki5.js');
   fs.writeFileSync(htmlOutputPath, htmlContentWithCorrectJsPath);
 <<<<<<< HEAD
+<<<<<<< HEAD
   execAndLog(`shx mv ${repoFolder}/output/tiddlywiki5.js ${folderToServe}/tiddlywiki5.js`, { cwd: repoFolder });
 =======
   execAndLog(`mv ${repoFolder}/output/tiddlywiki5.js ${folderToServe}/tiddlywiki5.js`, { cwd: repoFolder });
 >>>>>>> 13eead8 (Commit with Git-Sync-JS)
+=======
+  execAndLog(`mv ${repoFolder}/output/tiddlywiki5.js ${folderToServe}/tiddlywiki5.js`, { cwd: repoFolder });
+>>>>>>> 330024d (Commit with Git-Sync-JS)
   // npm run build:precache
   execAndLog(`workbox injectManifest workbox-config.js`, { cwd: repoFolder });
 };

@@ -4,9 +4,13 @@ dependents:
 description: 提供模糊搜索和拼音搜索的能力
 list: readme
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 name: pinyin-fuzzy-search
 >>>>>>> 13eead8 (Commit with Git-Sync-JS)
+=======
+name: pinyin-fuzzy-search
+>>>>>>> 330024d (Commit with Git-Sync-JS)
 plugin-type: plugin
 title: $:/plugins/linonetwo/pinyin-fuzzy-search
 type: application/json

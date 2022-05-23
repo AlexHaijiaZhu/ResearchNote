@@ -8,7 +8,11 @@ plugin-type: theme
 title: $:/themes/linonetwo/itonnote
 type: application/json
 <<<<<<< HEAD
+<<<<<<< HEAD
 version: 0.1.14
 =======
 version: 0.2.2
 >>>>>>> 13eead8 (Commit with Git-Sync-JS)
+=======
+version: 0.2.2
+>>>>>>> 330024d (Commit with Git-Sync-JS)

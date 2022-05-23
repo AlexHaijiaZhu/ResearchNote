@@ -10,20 +10,28 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - uses: actions/checkout@v2
 =======
       - uses: actions/checkout@v3
 >>>>>>> 13eead8 (Commit with Git-Sync-JS)
+=======
+      - uses: actions/checkout@v3
+>>>>>>> 330024d (Commit with Git-Sync-JS)
       - uses: actions/setup-node@v2-beta
         with:
           node-version: '16'
 
       - name: Cache dependencies
 <<<<<<< HEAD
+<<<<<<< HEAD
         uses: actions/cache@v2
 =======
         uses: actions/cache@v3
 >>>>>>> 13eead8 (Commit with Git-Sync-JS)
+=======
+        uses: actions/cache@v3
+>>>>>>> 330024d (Commit with Git-Sync-JS)
         with:
           path: |
             **/node_modules

@@ -1,17 +1,23 @@
 author: Felix Küppers
 core-version: >=5.1.5
 <<<<<<< HEAD
+<<<<<<< HEAD
 created: 20211017092826307
 dependents: 
 description: HotZone – Be notified when tiddlers are scrolled into view
 list: Configuration License Readme
 modified: 20211017092826307
 =======
+=======
+>>>>>>> 330024d (Commit with Git-Sync-JS)
 dependents: 
 description: HotZone – Be notified when tiddlers are scrolled into view
 list: Configuration License Readme
 name: hotzone
+<<<<<<< HEAD
 >>>>>>> 13eead8 (Commit with Git-Sync-JS)
+=======
+>>>>>>> 330024d (Commit with Git-Sync-JS)
 plugin-type: plugin
 released: 
 source: https://github.com/felixhayashi/TW5-HotZone
